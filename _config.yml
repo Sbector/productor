@@ -2,7 +2,7 @@
 title:               Saúl Becerra Torres
 tagline:             'Productor de arte/Desarrollador web'
 description:         'Portafolio de producción y desarrollo web'
-url:                 https://sbector.com/productor/
+url:                 https://sbector.com/productor
 baseurl:             ''
 paginate:            5
 permalink:           pretty
@@ -10,7 +10,7 @@ permalink:           pretty
 # About/contact
 author:
   name:              Saúl Becerra Torres
-  url:               https://sbector.com
+  url:               https://sbector.com/productor
   email:             saulbector@gmail.com
 
 # Gems
