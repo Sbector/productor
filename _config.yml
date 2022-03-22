@@ -1,17 +1,17 @@
 # Setup
 title:               Saúl Becerra Torres
-tagline:             'Productor de arte contemporáneo'
-description:         'Portafolio de producción de Saúl Becerra Torres'
-url:                 http://lanyon.getpoole.com
+tagline:             'Productor de arte/Desarrollador web'
+description:         'Portafolio de producción y desarrollo web'
+url:                 https://sbector.com/productor/
 baseurl:             ''
 paginate:            5
 permalink:           pretty
 
 # About/contact
 author:
-  name:              Mark Otto
-  url:               https://twitter.com/mdo
-  email:             markdotto@gmail.com
+  name:              Saúl Becerra Torres
+  url:               https://sbector.com
+  email:             saulbector@gmail.com
 
 # Gems
 plugins:
@@ -19,4 +19,4 @@ plugins:
 
 # Custom vars
 version:             1.1.0
-google_analytics_id: #UA-XXXX-Y
+# google_analytics_id: #UA-XXXX-Y
