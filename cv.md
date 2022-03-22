@@ -3,13 +3,13 @@ layout: page
 title: cv
 ---
 
-<strong>Productor de arte contemporáneo</strong>
-<br>
 Saúl Becerra Torres
+<br>
+<strong>Productor de arte contemporáneo</strong>
 <br>
 Guadalajara-León, México
 <br>  
-saulbector@gmail.com  
+saulbector@gmail.com
 
 ### Intereses
 
