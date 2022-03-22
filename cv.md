@@ -3,7 +3,8 @@ layout: page
 title: cv
 ---
 
-### Productor de arte contemporáneo
+<strong>Productor de arte contemporáneo</strong>
+<br>
 Saúl Becerra Torres
 <br>
 Guadalajara-León, México
