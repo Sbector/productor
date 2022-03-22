@@ -3,17 +3,17 @@ layout: page
 title: cv
 ---
 
-# Productor de arte contemporáneo
-Saúl Becerra Torres 
-Guadalajara-León, México
-saulbector@gmail.com
+### Productor de arte contemporáneo
+Saúl Becerra Torres  
+Guadalajara-León, México  
+saulbector@gmail.com  
 
-## Intereses
+### Intereses
 
 Cultura libre, arte contemporáneo, inteligencia artificial, webGL, webXR.
 
-## Habilidades
+### Habilidades
 
 Paquetería adobe, G Suite, Github.
 
-##
+## holi
