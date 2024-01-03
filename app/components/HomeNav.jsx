@@ -9,7 +9,7 @@ const links = [{
     route: '#contacto'
 }, {
     label: 'blog / recursos',
-    route: './blog'
+    route: '/blog'
 }]
 
 export default function HomeNav() {
