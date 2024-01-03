@@ -38,7 +38,7 @@ export default function AboutPage() {
                     </div>
                 </div>
             </Wrapper>
-            <SocialCard></SocialCard>
+            <SocialCard/>
             
         </main>
     )
