@@ -38,7 +38,7 @@ export default function ProducerExperience() {
         <div className="pt-6">
             <ol className="relative border-s ml-2 border-gray-700">
                 {experiences.map(({date, title, place, description})=>(
-                    <ExperienceItem date={date} title={title} place={place} description={description}/>
+                    <ExperienceItem key={title} date={date} title={title} place={place} description={description}/>
                 ))}
             </ol>
         </div>
