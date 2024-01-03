@@ -32,7 +32,6 @@ export default function SocialCard() {
                         <GithubIcon className="w-4 h-4" />Github
                     </SocialPill>
                 </nav>
-                <Button className="" href="#top">inicio</Button>
             </div>
         </Wrapper>
     )
