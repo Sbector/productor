@@ -7,10 +7,7 @@ const links = [{
 }, {
     label: 'contacto',
     route: '#contacto'
-}, {
-    label: 'blog / recursos',
-    route: '/blog'
-}]
+},]
 
 export default function HomeNav() {
     return (

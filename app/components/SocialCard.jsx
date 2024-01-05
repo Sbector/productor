@@ -33,6 +33,9 @@ export default function SocialCard() {
                     </SocialPill>
                 </nav>
             </div>
+            <div className="flex place-content-between">
+                <Button className="" href="#top">inicio</Button>
+            </div>
         </Wrapper>
     )
 }
