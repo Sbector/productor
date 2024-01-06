@@ -15,9 +15,9 @@ export default function HomeNav() {
             <nav>
                 <ul className="
                 flex-col justify-center text-end inline-flex items w-full
-                gap-3 
-                md:gap-4
-                lg:gap-6
+                gap-6 
+                md:gap-7
+                lg:gap-10
                 ">
                     {links.map(({ label, route }) => (
                         <li key={label} className="

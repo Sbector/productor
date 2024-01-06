@@ -33,7 +33,7 @@ export default function AboutPage() {
                     </h2>
                     <Curriculum />
                     <div className="flex place-content-between">
-                        <Button href="#">Descargar CV</Button>
+                        <Button href="https://sbector.com/">Descargar CV</Button>
                         <Button className="" href="#top">inicio</Button>
                     </div>
                 </div>
