@@ -31,34 +31,40 @@ const proyectos = [
         img: "#",
         url: "#"
     }
-
 ]
 
 export default function Bento({ children }) {
     return (
         <section className="flex flex-col gap-14">
-            <div className="flex flex-col gap-10">
-                <h2 className="
+            <h2 className="
                 text-2xl text-green-200 font-bold 
                 pb-3
                 md:text-3xl md:pb-4
                 xl:text-5xl lg:pb-5
                 ">Obra</h2>
+            <div className="w-full mx-auto grid grid-cols-10 auto-rows-auto gap-4">
                 {obras.map(({ date, title, description, img, url }) => (
-                    <Link href={url}>
+                    <Link href={url}
+                        className="
+                    col-span-10
+                    md:col-span-5
+                    ">
                         <BentoItem key={title} title={title} date={date} description={description} img={img} />
                     </Link>
                 ))}
             </div>
-            <div className="flex flex-col gap-10">
-                <h2 className="
+            <h2 className="
                 text-2xl text-green-200 font-bold 
                 pb-3
                 md:text-3xl md:pb-4
                 xl:text-5xl lg:pb-5
                 ">Proyectos</h2>
+            <div className="w-full mx-auto grid grid-cols-10 auto-rows-auto gap-4">
                 {proyectos.map(({ date, title, description, img, url }) => (
-                    <Link href={url}>
+                    <Link href={url} className="
+                    col-span-10
+                    md:col-span-5
+                    ">
                         <BentoItem key={title} title={title} date={date} description={description} img={img} />
                     </Link>
                 ))}
