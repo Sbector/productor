@@ -1,20 +1,19 @@
 import Button from "./Button";
 
-export default function BentoItem({ children }) {
+export default function BentoItem({ date, title, description, img, className }) {
     return (
-        <div>
-            <div
-                className="
+        <div
+            className={`flex flex-col justify-between
             relative
-            bg-green-200 
+            bg-slate-800 
             h-60
             landscape:h-20
-            ">
-                <h1 className="absolute top-0 left-0">{children}</h1>
-                <div className="absolute flex flex-row gap-4 bottom-0 right-0">
-                    <p >Descripción</p>
-                    <Button href="#">ver +</Button>
-                </div>
+            landscape:md:h-60
+            ${className}
+            `}>
+            <h1 className="py-1 px-2 text-base">{title}, {date}</h1>
+            <div className="w-full bg-green-200 bg-opacity-10">
+                <p className="text-sm py-1 px-2">{description}</p>
             </div>
         </div>
     )
