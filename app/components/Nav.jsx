@@ -14,11 +14,14 @@ const links = [{
 
 export default function Nav() {
     return (
-        <nav className="absolute top-0 pt-1 z-50 w-screen h-8 bg-zinc-900">
+        <nav className="absolute top-0 z-50 w-screen bg-zinc-900 py-4">
             <ul className="flex justify-center w-auto mx-auto gap-4">
                 {links.map(({ label, route }) => (
                     <li key={route}>
-                        <Link href={route} className="text-sm py-1 px-2 hover:text-green-500 hover:underline transition-all">{label}</Link>
+                        <Link href={route} className="font-bold text-base
+                        md:text-lg
+                         py-1 px-2 
+                         hover:text-green-500 hover:underline transition-all">{label}</Link>
                     </li>
                 ))}
             </ul>

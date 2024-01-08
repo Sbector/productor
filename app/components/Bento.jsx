@@ -6,7 +6,7 @@ const obras = [
         date: "2023",
         title: "Paricutin",
         description: "Fotogrametría de roca del Parícutin",
-        img: "#",
+        img: "/images/paricutin.webp",
         url: "#"
     }, {
         date: "2018",
@@ -14,15 +14,15 @@ const obras = [
         description: "Atribución de obra de arte público",
         img: "#",
         url: "#"
-    },{
+    }, {
         date: "2023",
-        title: "Paricutin",
+        title: "Otra",
         description: "Fotogrametría de roca del Parícutin",
         img: "#",
         url: "#"
     }, {
         date: "2018",
-        title: "Inconspicuo",
+        title: "Una mas",
         description: "Atribución de obra de arte público",
         img: "#",
         url: "#"
@@ -47,14 +47,13 @@ const proyectos = [
 
 export default function Bento({ children }) {
     return (
-        <section className="flex flex-col gap-14">
+        <div className="flex flex-col gap-14">
             <h2 className="
-                text-2xl text-green-200 font-bold 
-                pb-3
-                md:text-3xl md:pb-4
-                xl:text-5xl lg:pb-5
+                text-xl text-green-200
+                md:text-2xl md:pb-4
+                xl:text-3xl lg:pb-5
                 ">Obra</h2>
-            <div className="w-full mx-auto grid grid-cols-10 auto-rows-auto gap-4">
+            <section className="w-full mx-auto grid grid-cols-12 auto-rows-auto gap-4">
                 {obras.map(({ date, title, description, img, url }) => (
                     <Link key={title} href={url}
                         className="
@@ -62,17 +61,16 @@ export default function Bento({ children }) {
                     md:col-span-6
                     lg:col-span-3
                     ">
-                        <BentoItem key={title} title={title} date={date} description={description} img={img} />
+                        <BentoItem key={title} title={title} date={date} description={description} img={img}/>
                     </Link>
                 ))}
-            </div>
+            </section>
             <h2 className="
-                text-2xl text-green-200 font-bold 
-                pb-3
-                md:text-3xl md:pb-4
-                xl:text-5xl lg:pb-5
+                text-xl text-green-200
+                md:text-2xl md:pb-4
+                xl:text-3xl lg:pb-5
                 ">Proyectos</h2>
-            <div className="w-full mx-auto grid grid-cols-10 auto-rows-auto gap-4">
+            <section className="w-full mx-auto grid grid-cols-12 auto-rows-auto gap-4">
                 {proyectos.map(({ date, title, description, img, url }) => (
                     <Link key={title} href={url}
                         className="
@@ -83,7 +81,7 @@ export default function Bento({ children }) {
                         <BentoItem key={title} title={title} date={date} description={description} img={img} />
                     </Link>
                 ))}
-            </div>
-        </section>
+            </section>
+        </div>
     )
 }
