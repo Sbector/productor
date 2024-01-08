@@ -14,6 +14,18 @@ const obras = [
         description: "Atribución de obra de arte público",
         img: "#",
         url: "#"
+    },{
+        date: "2023",
+        title: "Paricutin",
+        description: "Fotogrametría de roca del Parícutin",
+        img: "#",
+        url: "#"
+    }, {
+        date: "2018",
+        title: "Inconspicuo",
+        description: "Atribución de obra de arte público",
+        img: "#",
+        url: "#"
     }
 ]
 
@@ -44,10 +56,11 @@ export default function Bento({ children }) {
                 ">Obra</h2>
             <div className="w-full mx-auto grid grid-cols-10 auto-rows-auto gap-4">
                 {obras.map(({ date, title, description, img, url }) => (
-                    <Link href={url}
+                    <Link key={title} href={url}
                         className="
-                    col-span-10
-                    md:col-span-5
+                    col-span-12
+                    md:col-span-6
+                    lg:col-span-3
                     ">
                         <BentoItem key={title} title={title} date={date} description={description} img={img} />
                     </Link>
@@ -61,9 +74,11 @@ export default function Bento({ children }) {
                 ">Proyectos</h2>
             <div className="w-full mx-auto grid grid-cols-10 auto-rows-auto gap-4">
                 {proyectos.map(({ date, title, description, img, url }) => (
-                    <Link href={url} className="
-                    col-span-10
-                    md:col-span-5
+                    <Link key={title} href={url}
+                        className="
+                    col-span-12
+                    md:col-span-6
+                    lg:col-span-3
                     ">
                         <BentoItem key={title} title={title} date={date} description={description} img={img} />
                     </Link>
