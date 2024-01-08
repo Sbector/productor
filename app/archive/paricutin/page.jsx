@@ -18,7 +18,7 @@ export default function Paricutin() {
                         className="pb-4 w-full h-full -z-40 object-cover"
                     />
                     <h2 className="text-md font-light text-green-200 pb-3">Fotogrametría</h2>
-                    <p>La elección de la palabra "Paricutin” escrita en forma esdrújula preserva la autenticidad de su pronunciación en lengua purépecha, evocando la esencia de su origen.
+                    <p>La elección de la palabra &quot;Paricutin&quot; escrita en forma esdrújula preserva la autenticidad de su pronunciación en lengua purépecha, evocando la esencia de su origen.
                     </p>
                     <p>Esta representación visual surge de una roca volcánica extraída del Paricutín, un volcán que fue ampliamente retratado y documentado durante su nacimiento por artistas mexicanos.</p>
 
