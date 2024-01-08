@@ -5,7 +5,7 @@ import HomeNav from "./components/HomeNav";
 
 export default function Home() {
   return (
-    <div className="relative">
+    <div id="home" className="relative">
       <Video/>
       <HomeNav />
       <AboutPage/>

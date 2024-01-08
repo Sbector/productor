@@ -5,9 +5,13 @@ const links = [{
     label: 'acerca de',
     route: '#about'
 }, {
+    label: 'archivo',
+    route: '/archive'
+}, {
+
     label: 'contacto',
     route: '#contacto'
-},]
+}]
 
 export default function HomeNav() {
     return (
@@ -20,14 +24,14 @@ export default function HomeNav() {
                 lg:gap-10
                 ">
                     {links.map(({ label, route }) => (
-                        <li key={label} className="
+                        <li key={label} >
+                            <Link href={route} className="
                         text-3xl font-medium uppercase 
                         hover:text-green-500 hover:-mx-1 hover:underline transition-all
                         md:text-4xl
                         lg:text-5xl 
                         xl:text-6xl
-                        ">
-                            <Link href={route}>{label}</Link>
+                        ">{label}</Link>
                         </li>
                     ))}
                 </ul>
