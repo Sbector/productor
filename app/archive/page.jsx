@@ -12,6 +12,7 @@ export default function ArchivePage() {
                         ">
                 Archivo
             </h1>
+
                 <Bento>
                     Obra
                 </Bento>

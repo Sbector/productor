@@ -5,9 +5,7 @@ export default function AboutLayout({ children }) {
     return (
         <>
             <Header />
-            <Wrapper>
                 {children}
-            </Wrapper>
         </>
     )
 }
