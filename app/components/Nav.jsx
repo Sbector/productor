@@ -4,8 +4,8 @@ const links = [{
     label: 'inicio',
     route: '/'
 }, {
-    label: 'archivo',
-    route: '/archive'
+    label: 'proyectos',
+    route: '/proyectos'
 
 }, {
     label: 'contacto',

@@ -7,7 +7,7 @@ const proyectos = [
         date: "2023",
         title: "Miedo siempre, miedo en todas partes",
         description: "Exposición individual de Raúl Rebolledo en laNao",
-        works: "Renders",
+        works: "Simulación y asistencia en diseño museográfico",
         url: "https://www.lanao.com.mx/copy-of-entrop%C3%ADa"
     }, {
         date: "2023",
@@ -50,34 +50,30 @@ const proyectos = [
 
 export default function ArchivePage() {
     return (
-        <Wrapper className="relative flex-col gap-4 place-content-end">
+        <Wrapper>
             <h1
-                className="font-light text-2xl pb-6 text-green-500 uppercase 
+                className="font-light text-2xl pb-14 text-green-500 uppercase 
                         md:text-3xl
                         lg:text-4xl 
                         xl:text-5xl
                         ">
-                Archivo
+                Proyectos
             </h1>
-            <div className="flex flex-col gap-4">
-                <h2 className="
-                text-xl text-green-200
-                md:text-2xl md:pb-4
-                xl:text-3xl lg:pb-5
-                ">Proyectos</h2>
                 <section className="">
+                <h1 className="font-semibold text-green-200">Futuro enterrado, 2024</h1>
+                            <h2 className="text-sm text-gray-50 font-medium">Exposición individual de Cynthia Gutierrez en Plataforma</h2>
+                            <p className="text-sm font-normal text-gray-400">Asistencia en diseño museográfico y coordinación</p>
                     {proyectos.map(({ date, title, description, works, url }) => (
                         <Link key={title} href={url} target="_blank"
                             className="
                     hover:text-green-500 hover:-mx-1 hover:underline transition-all
                     ">
-                            <h1 key={title} className="font-semibold text-green-200">{title}, {date}</h1>
-                            <h2 key={title} className="text-sm text-gray-50 font-medium">{description}</h2>
-                            <p key={title} className="text-sm font-normal text-gray-400">{works}</p>
+                            <h1 className="font-semibold text-green-200">{title}, {date}</h1>
+                            <h2 className="text-sm text-gray-50 font-medium">{description}</h2>
+                            <p className="text-sm font-normal text-gray-400">{works}</p>
                         </Link>
                     ))}
                 </section>
-            </div>
         </Wrapper>
     )
 }
