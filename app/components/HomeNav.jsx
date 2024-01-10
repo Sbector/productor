@@ -26,11 +26,13 @@ export default function HomeNav() {
                     {links.map(({ label, route }) => (
                         <li key={label} >
                             <Link href={route} className="
-                        text-3xl font-medium uppercase 
-                        hover:text-green-500 hover:-mx-1 hover:underline transition-all
+                        text-3xl text-green-500 font-bold uppercase 
+                        hover:text-gray-50 hover:-mx-1 hover:underline transition-all
                         md:text-4xl
                         lg:text-5xl 
                         xl:text-6xl
+                       
+                        
                         ">{label}</Link>
                         </li>
                     ))}

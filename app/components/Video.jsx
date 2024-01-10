@@ -2,8 +2,8 @@ export default function Video() {
     return (
         <div className="w-full relative">
             <video
-                className="absolute w-full h-screen -z-40 object-cover portrait:object-[-275px_0px]"
-                src="./web.mp4" 
+                className="absolute blur w-full h-screen -z-40 object-cover"
+                src="./home.mp4" 
                 autoPlay 
                 loop 
                 playsInline 
