@@ -15,7 +15,7 @@ const proyectos = [
         description: "Un proyecto de Co.merr en el Museo de Arte de Zapopan",
         works: "Diseño museográfico y producción",
         url: "https://maz.zapopan.gob.mx/portfolio_page/la-escuela-del-fogon/"
-    },{
+    }, {
         date: "2023",
         title: "Los de abajo",
         description: "Exposición individual de Mark Bradford en el Museo de Arte de Zapopan",
@@ -59,21 +59,21 @@ export default function ArchivePage() {
                         ">
                 Proyectos
             </h1>
-                <section className="">
+            <section>
                 <h1 className="font-semibold text-green-200">Futuro enterrado, 2024</h1>
-                            <h2 className="text-sm text-gray-50 font-medium">Exposición individual de Cynthia Gutierrez en Plataforma</h2>
-                            <p className="text-sm font-normal text-gray-400">Asistencia en diseño museográfico y coordinación</p>
-                    {proyectos.map(({ date, title, description, works, url }) => (
-                        <Link key={title} href={url} target="_blank"
-                            className="
+                <h2 className="text-sm text-gray-50 font-medium">Exposición individual de Cynthia Gutierrez en Plataforma</h2>
+                <p className="text-sm font-normal text-gray-400">Asistencia en diseño museográfico y coordinación</p>
+                {proyectos.map(({ date, title, description, works, url }) => (
+                    <Link key={title} href={url} target="_blank"
+                        className="
                     hover:text-green-500 hover:-mx-1 hover:underline transition-all
                     ">
-                            <h1 className="font-semibold text-green-200">{title}, {date}</h1>
-                            <h2 className="text-sm text-gray-50 font-medium">{description}</h2>
-                            <p className="text-sm font-normal text-gray-400">{works}</p>
-                        </Link>
-                    ))}
-                </section>
+                        <h1 className="font-semibold text-green-200">{title}, {date}</h1>
+                        <h2 className="text-sm text-gray-50 font-medium">{description}</h2>
+                        <p className="text-sm font-normal text-gray-400">{works}</p>
+                    </Link>
+                ))}
+            </section>
         </Wrapper>
     )
 }

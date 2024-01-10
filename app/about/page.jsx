@@ -6,7 +6,7 @@ import Wrapper from "../components/Wrapper";
 export default function AboutPage() {
     return (
         <main id="about">
-            <Wrapper className="w-200 snap-start">
+            <Wrapper>
                 <h1 className="
                 text-2xl text-green-500 font-bold 
                 pb-3

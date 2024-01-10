@@ -14,8 +14,8 @@ const links = [{
 
 export default function Nav() {
     return (
-        <nav className="absolute top-0 z-50 w-screen bg-zinc-900 py-4">
-            <ul className="flex justify-center w-auto mx-auto gap-4">
+        <nav className="absolute top-0 z-50 max-w-screen left-0 right-0 mx-auto bg-zinc-900 py-4">
+            <ul className="flex justify-center mx-auto gap-4">
                 {links.map(({ label, route }) => (
                     <li key={route}>
                         <Link href={route} className="font-bold text-base
