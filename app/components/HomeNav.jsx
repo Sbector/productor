@@ -6,7 +6,7 @@ const links = [{
     route: '#about'
 }, {
     label: 'proyectos',
-    route: '/proyectos'
+    route: '#proyectos'
 }, {
 
     label: 'contacto',

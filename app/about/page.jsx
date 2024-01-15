@@ -1,6 +1,5 @@
 import Button from "../components/Button";
 import Curriculum from "../components/Curriculum";
-import SocialCard from "../components/SocialCard";
 import Wrapper from "../components/Wrapper";
 
 export default function AboutPage() {
@@ -31,14 +30,6 @@ export default function AboutPage() {
                 </p>
 
                 <div className="mt-10">
-                    <h2 className="
-                    text-base text-gray-50 font-bold uppercase
-                    pb-3
-                    md:text-lg
-                    xl:text-xl
-                    ">
-                        CV
-                    </h2>
                     <Curriculum />
                     <div className="flex place-content-between">
                         <Button href="./Saúl Becerra Torres_ Portafolio 2023.pdf">Descargar CV</Button>
@@ -46,7 +37,6 @@ export default function AboutPage() {
                     </div>
                 </div>
             </Wrapper>
-            <SocialCard/>
             
         </main>
     )

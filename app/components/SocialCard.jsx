@@ -9,7 +9,6 @@ export default function SocialCard() {
 
     return (
         <Wrapper>
-
             <div id="contacto" className="
         py-20 mx-10
         md:w-[700px] md:mx-auto

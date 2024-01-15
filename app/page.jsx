@@ -1,6 +1,8 @@
 import AboutPage from "./about/page";
 import Video from "./components/Video";
 import HomeNav from "./components/HomeNav";
+import ProjectsPage from "./proyectos/page";
+import SocialCard from "./components/SocialCard";
 
 
 export default function Home() {
@@ -9,6 +11,8 @@ export default function Home() {
       <Video/>
       <HomeNav />
       <AboutPage/>
+      <ProjectsPage/>
+      <SocialCard/>
     </div>
   )
 }
