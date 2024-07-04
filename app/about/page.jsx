@@ -30,14 +30,13 @@ export default function AboutPage() {
                 </p>
 
                 <div className="mt-10">
-                    <Curriculum />
+                    
                     <div className="flex place-content-between">
-                        <Button href="./Saúl Becerra Torres_ Portafolio 2023.pdf" target="_blank">Descargar CV</Button>
-                        <Button href="#top">inicio</Button>
+                        <Button href="./Saul_Becerra_Torres-CV.pdf" target="_blank">Descargar CV</Button>
+                        <Button href="./Saul_Becerra_Torres_Portafolio_Museografia_2020-2024.pdf" target="_blank">Descargar Portafolio</Button>
                     </div>
                 </div>
             </Wrapper>
-            
         </main>
     )
 }
