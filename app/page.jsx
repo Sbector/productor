@@ -7,7 +7,7 @@ import SocialCard from "./components/SocialCard";
 
 export default function Home() {
   return (
-    <div id="home" className="relative">
+    <div id="home" className="relative snap-y scroll-smooth snap-mandatory h-screen overflow-y-scroll no-scrollbar">
       <Video/>
       <HomeNav />
       <AboutPage/>
