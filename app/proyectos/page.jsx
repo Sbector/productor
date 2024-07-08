@@ -76,9 +76,6 @@ export default function ProjectsPage() {
                         </Link>
                     ))}
                 </section>
-                <div className="flex place-content-end">
-                    <Button className="" href="#top">inicio</Button>
-                </div>
             </Wrapper>
         </section>
     )
