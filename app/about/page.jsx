@@ -19,14 +19,14 @@ export default function AboutPage() {
                 md:text-lg
                 xl:text-xl
                 ">
-                    Artista contemporáneo y productor de arte.<span className="text-green-200"> Especializado en medios electrónicos y virtuales.</span> Entusiasta y promotor de la cultura libre.
+                    Productor de arte contemporáneo y museógrafo especializado en medios electrónicos y virtuales. Su carrera se centra en la integración de tecnología y cultura libre en el arte, creando experiencias innovadoras y accesibles para el público.
                 </p>
                 <p className="
                 text-base text-wrap
                 md:text-lg
                 xl:text-xl
                 ">
-                    A lo largo de su carrera como productor, Saúl ha colaborado con destacados artistas como <span className="text-green-200">Alinka Echeverría,</span> Andrea Galvani, <span className="text-green-200">Alejandro Almanza Pereda,</span> Javier M. Rodríguez, <span className="text-green-200">Leiko Ikemura,</span> Mark Bradford y <span className="text-green-200">Donna Huanca.</span>
+                   Utiliza herramientas como escaneo 3D, realidad virtual (VR) y programación creativa en la producción y planificación de proyectos artísticos, contribuyendo al desarrollo de sus obras de diversas maneras.
                 </p>
 
                 <div className="mt-10">
