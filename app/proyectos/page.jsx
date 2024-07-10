@@ -5,6 +5,12 @@ import Button from "../components/Button";
 
 const proyectos = [
     {
+        date: "2024",
+        title: "Futuro enterrado",
+        description: "Exposición individual de Cynthia Gutierrez en Plataforma",
+        works: "Asistencia en diseño museográfico y coordinación",
+        url: "https://cynthiagutierrez.com/futuro-enterrado/"
+    },{
         date: "2023",
         title: "Miedo siempre, miedo en todas partes",
         description: "Exposición individual de Raúl Rebolledo en laNao",
@@ -62,9 +68,6 @@ export default function ProjectsPage() {
                     Proyectos realizados
                 </h1>
                 <section>
-                    <h1 className="font-semibold text-green-200">Futuro enterrado, 2024</h1>
-                    <h2 className="text-sm text-gray-50 font-medium">Exposición individual de Cynthia Gutierrez en Plataforma</h2>
-                    <p className="text-sm font-normal text-gray-400">Asistencia en diseño museográfico y coordinación</p>
                     {proyectos.map(({ date, title, description, works, url }) => (
                         <Link key={title} href={url} target="_blank"
                             className="
