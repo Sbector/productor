@@ -21,37 +21,37 @@ const proyectos = [
         title: "La escuela del fogón",
         description: "Un proyecto de Co.merr en el Museo de Arte de Zapopan",
         works: "Diseño museográfico y producción",
-        url: "https://maz.zapopan.gob.mx/portfolio_page/la-escuela-del-fogon/"
+        url: "https://maz.zapopan.gob.mx/portfolio-item/la-escuela-del-fogon-cocinar-la-revolucion-en-america-co-merr/"
     }, {
         date: "2023",
         title: "Los de abajo",
         description: "Exposición individual de Mark Bradford en el Museo de Arte de Zapopan",
         works: "Coordinador",
-        url: "https://maz.zapopan.gob.mx/portfolio_page/mark-bradford/"
+        url: "https://maz.zapopan.gob.mx/portfolio-item/los-de-abajo-mark-bradford/"
     }, {
         date: "2023",
         title: "Año del usagi",
         description: "Exposición individual de Leiko Ikemura en el Museo de Arte de Zapopan",
         works: "Diseño museográfico y coordinador",
-        url: "https://maz.zapopan.gob.mx/portfolio_page/leiko-ikemura/"
+        url: "https://maz.zapopan.gob.mx/portfolio-item/ano-del-usagi-leiko-ikemura/"
     }, {
         date: "2023",
         title: "Ojos obsidianos",
         description: "Exposición individual de Donna Huanca en el Museo de Arte de Zapopan",
         works: "Coordinador",
-        url: "https://maz.zapopan.gob.mx/portfolio_page/donna-huanca/"
+        url: "https://maz.zapopan.gob.mx/portfolio-item/ojos-obsidianos-donna-huanca/"
     }, {
         date: "2022",
         title: "Poder blando",
         description: "Exposición individual de Miriam Rodríguez en el Museo de Arte de Zapopan",
         works: "Coordinador",
-        url: "https://maz.zapopan.gob.mx/portfolio_page/poder-blando/"
+        url: "/#proyectos"
     }, {
         date: "2022",
         title: "Imperios de lo plural",
         description: "Exposición de obras selectas de la colección de la fundación de arte Cisneros Fontanals (CIFO) el Museo de Arte de Zapopan",
         works: "Coordinador",
-        url: "https://maz.zapopan.gob.mx/portfolio_page/imperios-de-lo-plural-cifo/"
+        url: "https://www.cifo.org/index.php/es/contenidojoomla/pasadas/item/834-plural-domains-ii-selected-works-from-the-cisneros-fontanals-art-foundation"
     }
 ]
 
