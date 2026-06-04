@@ -1,0 +1,38 @@
+---
+import Wrapper from './Wrapper.astro';
+
+const links = [
+  { label: 'acerca de', route: '#about' },
+  { label: 'proyectos', route: '#proyectos' },
+  { label: 'contacto', route: '#contacto' },
+];
+---
+
+<Wrapper>
+  <nav>
+    <ul
+      class="flex-col justify-center text-end inline-flex items w-full
+      gap-4
+      md:gap-5
+      lg:gap-8"
+    >
+      {
+        links.map(({ label, route }) => (
+          <li>
+            <a
+              href={route}
+              class="text-3xl shadow-xl text-gray-50 font-bold uppercase
+              bg-black bg-opacity-10 border px-3 py-1 border-gray-50
+              hover:text-green-500 hover:bg-green-200 hover:bg-opacity-20 hover:-mx-1 hover:underline transition-all
+              md:text-4xl
+              lg:text-5xl
+              xl:text-6xl"
+            >
+              {label}
+            </a>
+          </li>
+        ))
+      }
+    </ul>
+  </nav>
+</Wrapper>
